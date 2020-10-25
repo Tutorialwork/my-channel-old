@@ -95,7 +95,7 @@ class ResponseBuilder{
                                                 "type" => "Image",
                                                 "width" => "300dp",
                                                 "height" => "300dp",
-                                                "source" => "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://skills.tutorialwork.dev/mychannel.php?code=" . $pinCode,
+                                                "source" => "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://skills.tutorialwork.dev/mychannel/" . $pinCode,
                                                 "align" => "center"
                                             ]
                                         ],
